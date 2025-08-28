@@ -12,9 +12,6 @@ class Math {
 
 
 
-
-
-
     //ANSWER:
 
 
@@ -52,6 +49,18 @@ class Math {
     //Odd integers from 1 to 100, inclusive of both
 
 
+    int i;
+    for( i = 1 ; i <= 100 ; i = i+1 )
+    {
+      //so we want all odd integer to be printed, but not the even one
+      //and here we are ilterating through 1 to 100 for i
+      //so i will be 1 to 100 during our ilteration
+      //and we check if its odd
+      if (i%2 == 1)
+      {
+        System.out.println(i);
+      }
+    }
 
     //All multiples of 3 from 1 to 100
 
